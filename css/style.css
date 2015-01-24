@@ -1,0 +1,26 @@
+label.error {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	min-width: 180px;
+	font-size: 13px;
+	font-weight: 800;
+	text-transform: none;
+	padding: .1em .6em;
+	border-radius: 3px;
+	background-color: #DA4842;
+	color: #fff;
+	letter-spacing: 0;
+	width: 100%;
+}
+label.error:after {
+	content: " ";
+	position: absolute;
+	left: 4px;
+	top: 100%;
+	pointer-events: none;
+	width: 0;
+	height: 0;
+	border-top: 8px solid #DA4842;
+	border-left: 8px solid transparent;
+}
